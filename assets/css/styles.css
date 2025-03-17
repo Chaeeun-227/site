@@ -1,0 +1,467 @@
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 900;
+    src: url(pre/Pretendard-Black.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 800;
+    src: url(pre/Pretendard-ExtraBold.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 700;
+    src: url(pre/Pretendard-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 600;
+    src: url(pre/Pretendard-SemiBold.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    src: url(pre/Pretendard-Medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 400;
+    src: url(pre/Pretendard-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 300;
+    src: url(pre/Pretendard-Light.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 200;
+    src: url(pre/Pretendard-ExtraLight.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 100;
+    src: url(pre/Pretendard-Thin.woff) format('woff');
+}
+
+body {
+    font-family: Pretendard;
+}
+
+/* header */
+
+.nav {
+    display: flex;
+    width: 1617px;
+    margin: 0 auto;
+}
+
+.gnb>ul {
+    display: flex;
+}
+
+.nav-icon ul {
+    display: flex;
+}
+
+.logo {
+    font-size: 18px;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    font-weight: 600;
+
+}
+
+.gnb a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: -0.025em;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.logo_item {
+    margin-right: 46px;
+}
+
+.gnb li {
+    margin-right: 70px;
+}
+
+.gnb li:last-child {
+    margin-right: 0px
+}
+
+.nav-icon {
+    margin-left: 46px;
+}
+
+header {
+    padding: 23px 0;
+}
+
+.nav-icon li:first-child {
+    margin-right: 11px;
+}
+
+.content_01 {
+
+    width: 100%;
+    height: 670px;
+    background: url('../images/pp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.slider h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #fff;
+}
+
+.slider p {
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.slider button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    color: #fff;
+    padding: 14px 16px;
+    margin-top: 56px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 670px;
+    margin-left: 197px;
+}
+
+.sec02 {
+    padding: 100px 0;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+    background-color: #868686;
+
+}
+
+.sec02__title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-size: 32px;
+    letter-spacing: -0.025em;
+}
+
+.sec02__title p {
+    font-size: 16px;
+    color: #868686;
+    letter-spacing: -0.025em;
+    margin-top: 25px;
+}
+
+.sec03 {
+    padding: 100px 0;
+
+}
+
+.sec03__title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-size: 32px;
+}
+
+.sec03__title p {
+    font-size: 16px;
+    color: #868686;
+    margin-top: 25px;
+    letter-spacing: -0.025em;
+
+}
+
+.content_02 {
+    width: 1316px;
+    margin: 0 auto;
+
+}
+.auto{
+    width: 1316px;
+    margin: auto;
+}
+
+.box{
+    width: 432px;
+    height: 280px;
+    background: #868686;
+}
+
+.left-box{
+    width: 432px;
+    float: left;
+}
+
+.margin-10{
+    margin: 0 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+}
+
+.content_03 {
+    padding: 100px 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.box_1{
+    background-color: #868686;
+    width: 1316px;
+    height: 480px;
+    margin: auto;
+}
+
+
+/*common*/
+
+.d-flex{
+    display: flex;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+.font-36{
+    font-size: 36px;
+}
+
+.w-1316{
+    width: 1316px;
+    margin: auto;
+}
+
+
+img{
+    width: 100%;
+    
+}
+
+.swiper__img{
+    width: 178px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.swiper__text{
+    text-align: center;
+
+}
+
+.w-650{
+    width: 650px;
+}
+
+.w-550{
+    width: 550px;
+}
+
+
+.m-l-20{
+    margin-left: 20px;
+}
+
+.mt-9{
+    margin-top: 9px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+
+.mb-83{
+    margin-bottom: 83px;
+}
+.font-500{
+    font-weight: 500;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+.font-600{
+    font-weight: 600;
+}
+
+
+
+
+.d-flex-s{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec08{
+    padding: 100px 0;
+    width: 1903px;
+    overflow: hidden;
+    
+}
+.ml-250{
+    margin-left: -250px;
+}
+.over-f-h{
+    width: 3000px;
+    
+}
+
+.d-float .box_1{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.box_1{
+    width: 352px;
+    height: 250px;
+    background-color: antiquewhite;
+    margin: 0 10px;
+}
+
+
+.bg1{
+    background: url('../images/Rectangle\ 8.png');
+}
+
+.bg2{
+    background: url('../images/Rectangle\ 9.png');
+}
+
+.bg3{
+    background: url('../images/Rectangle\ 10.png');
+}
+
+.bg4{
+    background: url('../images/Rectangle\ 11.png')
+}
+
+.bg5{
+    background: url('../images/Rectangle\ 12.png');
+}
+
+.bg6{
+    background: url('../images/Rectangle\ 13.png');
+}
+
+.title2{
+    width: 1316px;
+    margin: auto;
+}
+.mt-100{
+    margin-top: 100px;
+}
+
+.padding-t-100{
+    padding-top: 100px 0;
+}
+
+.aside-content{
+    padding: 20px 0 60px 0;
+    box-shadow: inset 0px 1px #ccc;
+
+}
+
+.left-title{
+    width: 328px;
+}
+
+.right-title{
+    width: 458px;
+}
+
+
+.flat-6__content{
+
+    width: 648px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.flat-6__content p{
+    margin: 25px 0 20px 0;
+}
+
+.bg-flat-1{
+    background: url('../images/a13.png') no-repeat;
+    background-position: center;
+    background-size: center;
+}
+
+.bg-flat-2{
+    background: url('../images/a14.png') no-repeat;
+    background-position: center;
+    background-size: center;
+}
+
+.flat-6__content2{
+    width: 324px;
+    height: 640px;
+    
+
+
+
+}
+
+.bg-flat-3{
+    background: url('../images/a15.png') no-repeat;
+    background-position: center;
+    background-size: center;
+}
+
